@@ -1,0 +1,97 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #666;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  li a:hover {
+	background-color: rgb(230, 247, 155);
+  }
+  /* Darkmode/Lightmode knappar */
+  button{
+	float: right;
+	background-color: #666;
+	color: white;
+	border:none;
+	margin-top: 15px;
+  }
+  /* Darkmode/Lighmode knappar hover */
+  button:hover{
+	background-color: rgb(230, 247, 155);
+  }
+  h1{
+	text-align: center;
+	background-color: #666;
+	padding: 16px;
+	margin-top: 0px;
+  }
+  h2{
+	text-align: center;
+  }
+  h4{
+	text-align: center;
+  }
+ /* Adressfält */
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px; 
+	border: 1px solid #666;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize:vertical;
+  }
+  
+  /* Skicka knapp */
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor:pointer;
+	/* Skickaknapp hover */
+  }
+  input[type=submit]:hover {
+	background-color: rgb(230, 247, 155);
+  }
+  .bigbox{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	margin-top: 20px;
+	color:black;
+  }
+  .smallbox{
+	height: 400px;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+  }
+  .boxbox{
+	margin-top: 80px;
+	display: flex;
+	height: 400px;
+	justify-content: center;
+  }
+ 
+  
+
+ 
+
+
+

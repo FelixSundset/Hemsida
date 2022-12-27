@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <button class="knapp" onclick="darkMode()">Darkmode</button>
+            <button class="knapp" onclick="lightMode()">Lightmode</button>
+          </ul>
+        <h1>Städhjälp.nu</h1>
+    </header>
+    <h2>Fyll i formuläret så återkommer vi inom 24 timmar</h2>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fnamn">Namn</label>
+          <input type="text" id="fnamn" name="namn" placeholder="Ditt namn">
+      
+          <label for="enamn">Efternman</label>
+          <input type="text" id="enamn" name="efternamn" placeholder="Ditt efternamn">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Din mailadress">
+
+          <label for="avdelning">Vilken avdelning vill du kontakta</label>
+          <select id="avdelning name="avdelning">
+          <option value="kundtjänst" hidden>Välj avdelning</option>
+          <option value="kundtjänst">Kundtjänst</option>
+          <option value="bokning">Boka tid för städning</option>
+         </select>
+      
+          <label for="subject">Vad behöver du hjälp med?</label>
+          <textarea id="subject" name="subject" placeholder="Skriv här.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Skicka">
+      
+        </form>
+      </div>
+      <div class="bigbox">
+        <img
+         src="https://www.kungligaslotten.se/images/18.363eb6d4161bda943ca8e0/1519463137968/kungliga-slottet-foto-raphael-stecksen.jpg"
+         width="1000px"
+         height="500px"
+         title="Bild på kontoret"
+         alt="Bild på kontoret">
+      <div class="smallbox">
+          <h3>Hitta hit</h3>
+          <p>Adress: Kungliga slottet, 107 70 Stockholm</p>
+          <p>Öppetider: 07:00 - 16:00 måndag-fredag</p>
+          <p> Telefonnummer: 071304534</p>
+      </div>
+         
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
